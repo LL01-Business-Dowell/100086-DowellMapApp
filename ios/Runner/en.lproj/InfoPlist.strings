@@ -1,0 +1,5 @@
+NSLocationWhenInUseUsageDescription = "Dowell sales agent wants your location";
+NSCameraUsageDescription = "Dowell sales agent wants to access your camera";
+NSMicrophoneUsageDescription = "Dowell sales agent wants to access your microphone";
+PermissionGroupNotification = "Dowell sales agent wants push notifications to you";
+NSPhotoLibraryUsageDescription = "Dowell sales agent wants permission to share your photo library";
