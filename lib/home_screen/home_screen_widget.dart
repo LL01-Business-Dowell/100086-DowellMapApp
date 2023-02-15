@@ -60,6 +60,15 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
     _unfocusNode.dispose();
     super.dispose();
   }
+ 
+  @override
+ void reset(){
+    setState(() {
+      _model.textController1.text = 'ag6cv6sw';
+      _model.textController2.text = "pjene2vn";
+      _model.textController3.text = '2fexitic';
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -831,8 +840,11 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                                                       size: 16,
                                                     ),
                                                     onPressed: () {
-                                                      print(
-                                                          'IconButton pressed ...');
+                                                      //print(
+                                                          '//IconButton pressed ...');
+                                                      
+                                                     //Reset button call
+                                                      reset()
                                                     },
                                                   ),
                                                 ),
